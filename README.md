@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project presents an interactive Sales Performance Dashboard developed using Power BI. The objective of this dashboard is to analyze sales data, monitor business performance, and provide meaningful insights through clear and structured visualizations.
+This project presents a single-page Sales Performance Dashboard developed using Power BI. The objective of the dashboard is to provide a consolidated view of overall sales performance using key metrics and structured visual analysis.
 
-The dashboard focuses on high-level performance indicators as well as detailed breakdowns across time and regions.
+The entire report is designed as a one-page executive dashboard that allows quick understanding of performance across regions, product categories, customer segments, and time.
 
 ---
 
@@ -14,105 +14,115 @@ The dashboard focuses on high-level performance indicators as well as detailed b
 
 ---
 
-## Key Objectives
+## Key Performance Indicators
 
-- Track overall sales performance
-- Identify sales trends over time
-- Compare regional contributions
-- Provide a quick executive-level business summary
-- Support data-driven decision making
+The top section of the dashboard highlights three primary business metrics:
 
----
+• Total Sales: 2.26M  
+• Average Sales: 459.48  
+• Total Orders: 4.922K  
 
-## Page 1: Executive Summary
-
-This page is designed to provide a quick overview of business performance.
-
-### KPI Cards
-The dashboard includes key performance indicators such as:
-- Total Sales
-- Total Orders
-- Average Sales per Order
-
-These KPIs allow stakeholders to immediately understand overall business health without going into detailed analysis.
-
-### Sales by Region (Column Chart)
-This visual compares sales across different regions.  
-It helps identify which region contributes the highest revenue and which regions may require improvement strategies.
-
-### Sales by Category
-This chart highlights how different product categories contribute to total revenue.  
-It supports product-level performance evaluation and strategic planning.
+These KPIs provide an immediate summary of business performance and scale. They allow decision-makers to understand overall revenue, transaction volume, and average order value at a glance.
 
 ---
 
-## Page 2: Sales Trend Analysis
+## Sales by Region
 
-### Sales Over Time (Line Chart)
+A horizontal bar chart compares sales performance across four regions:
 
-The line chart shows sales performance across months or years.
+- West
+- East
+- Central
+- South
 
-Why this visual was used:
-- Line charts clearly represent time-based trends
-- It helps identify growth patterns
-- Detects seasonality
-- Highlights peak and low-performing periods
+Observation:
+The West region contributes the highest sales, followed by East. South records the lowest contribution among the four regions.
 
-This page helps answer questions like:
-- Is the business growing steadily?
-- Are there seasonal sales fluctuations?
-- Are there sudden drops or spikes?
+Purpose:
+This visual helps identify strong markets and potential areas for performance improvement.
 
 ---
 
-## Page 3: Regional Performance Analysis
+## Sales by Sub-Category
 
-This page focuses on deeper regional comparison.
+This horizontal bar chart shows revenue contribution across various product sub-categories such as Phones, Chairs, Storage, Tables, and others.
 
-Bar and column charts are used to:
-- Compare regional sales contributions
-- Identify top-performing and underperforming areas
-- Support strategic decisions such as regional marketing focus or expansion
+Observation:
+Phones and Chairs generate the highest revenue among sub-categories, while items like Paper and Furnishings contribute comparatively less.
+
+Business Value:
+This breakdown helps evaluate product-level performance and supports inventory or strategy decisions.
+
+---
+
+## Sales by Category
+
+A column chart compares three primary product categories:
+
+- Technology
+- Furniture
+- Office Supplies
+
+Observation:
+Technology leads in overall revenue generation, indicating strong demand in that segment.
+
+Purpose:
+This visual provides a high-level product category comparison.
+
+---
+
+## Sales by Segment
+
+This column chart analyzes customer segments:
+
+- Consumer
+- Corporate
+- Home Office
+
+Observation:
+The Consumer segment generates the highest sales, followed by Corporate. Home Office contributes the least.
+
+Business Impact:
+This insight can guide marketing focus and customer targeting strategies.
+
+---
+
+## Monthly Sales Trend
+
+A line chart visualizes monthly sales performance from January to December.
+
+Observation:
+Sales fluctuate moderately during the first half of the year, with noticeable growth towards the end of the year. Peak performance appears in the final months.
+
+Purpose:
+The line chart helps identify seasonality, growth patterns, and performance spikes over time.
 
 ---
 
 ## Design Approach
 
-The dashboard follows clean visualization principles:
+The dashboard follows clean and structured visualization principles:
 
-- Minimal and consistent color palette
-- Proper alignment and spacing
+- Single-page executive layout
+- Balanced spacing and alignment
+- Limited and consistent color usage
 - Clear titles and labels
-- Avoidance of clutter
-- Focus on business insights rather than decorative visuals
+- Focus on insight rather than visual complexity
 
-Each visual is intentionally placed to guide the viewer from high-level summary to detailed analysis.
+The layout is intentionally designed to move from high-level KPIs to detailed breakdowns in a logical flow.
 
 ---
 
-## Tools & Skills Used
+## Tools Used
 
 - Power BI Desktop
 - Data Modeling
-- DAX Measures
-- Data Visualization Best Practices
+- KPI Design
 - Business Insight Interpretation
-
----
-
-## How to Use
-
-1. Download the `.pbix` file.
-2. Open it in Power BI Desktop.
-3. Navigate across report pages.
-4. Use filters (if available) to interact with the data.
+- Data Visualization Best Practices
 
 ---
 
 ## Conclusion
 
-This dashboard demonstrates how raw sales data can be transformed into actionable business insights through effective data visualization and structured storytelling.
-
-It showcases practical Power BI skills in data modeling, visualization design, and analytical thinking.
-
-
+This dashboard demonstrates how sales data can be transformed into a structured and business-focused performance report. By combining KPIs, regional comparison, product analysis, customer segmentation, and time-based trends into a single view, the report enables efficient and informed decision-making.
