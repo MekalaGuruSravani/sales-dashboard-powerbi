@@ -10,7 +10,7 @@ The dashboard focuses on high-level performance indicators as well as detailed b
 
 ## Dashboard Preview
 
-![Sales Dashboard](images/dashboard.png)
+![Sales Dashboard](dashboard.png)
 
 ---
 
@@ -114,4 +114,5 @@ Each visual is intentionally placed to guide the viewer from high-level summary 
 This dashboard demonstrates how raw sales data can be transformed into actionable business insights through effective data visualization and structured storytelling.
 
 It showcases practical Power BI skills in data modeling, visualization design, and analytical thinking.
+
 
